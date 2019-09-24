@@ -1,0 +1,18 @@
+{
+  "name": "url-link-shortener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/3daddict/url-link-shortener.git",
+  "author": "Michael <print@3daddict.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js "
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1",
+    "shortid": "^2.2.15",
+    "valid-url": "^1.0.9"
+  }
+}
