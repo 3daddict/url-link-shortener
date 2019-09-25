@@ -1,18 +1,34 @@
 {
-  "name": "url-link-shortener",
+  "name": "url-shortener",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/3daddict/url-link-shortener.git",
-  "author": "Michael <print@3daddict.com>",
-  "license": "MIT",
+  "description": "URL Shortener Demo",
+  "main": "src/server.js",
   "scripts": {
-    "start": "nodemon index.js "
+    "start": "npx nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freshman-tech/url-shortener.git"
+  },
+  "keywords": [
+    "url shortener",
+    "mongodb",
+    "nodejs"
+  ],
+  "author": "Ayo Isaiah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freshman-tech/url-shortener/issues"
+  },
+  "homepage": "https://github.com/freshman-tech/url-shortener#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
   },
   "dependencies": {
-    "dotenv": "^8.1.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.7.1",
-    "shortid": "^2.2.15",
-    "valid-url": "^1.0.9"
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10",
+    "nanoid": "^2.0.1"
   }
 }
